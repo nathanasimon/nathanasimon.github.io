@@ -7,44 +7,127 @@
 <style>
   body {
     font-family: -apple-system, system-ui, sans-serif;
-    max-width: 640px;
-    margin: 80px auto;
-    padding: 0 20px;
+    max-width: 680px;
+    margin: 60px auto;
+    padding: 0 22px;
     line-height: 1.6;
-    color: #222;
+    color: #1a1a1a;
   }
-  h1 { margin-bottom: 0; }
-  .tag { color: #666; margin-top: 4px; }
+  h1 { margin-bottom: 2px; }
+  h2 { margin-top: 38px; font-size: 1.15em; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+  .tag { color: #666; margin-top: 0; }
   a { color: #0366d6; text-decoration: none; }
   a:hover { text-decoration: underline; }
   ul { padding-left: 18px; }
-  hr { border: none; border-top: 1px solid #eee; margin: 32px 0; }
+  li { margin-bottom: 6px; }
+  .role { font-weight: 600; }
+  .meta { color: #666; font-size: 0.92em; }
+  .blurb { color: #555; font-style: italic; font-size: 0.92em; margin: 2px 0 6px; }
+  .item { margin-bottom: 20px; }
+  hr { border: none; border-top: 1px solid #eee; margin: 28px 0; }
 </style>
 </head>
 <body>
 
 <h1>Nathan Simon</h1>
-<p class="tag">Research &amp; engineering</p>
-
-<hr>
-
-<p>
-  I build tools and systems at the intersection of hardware and machine learning.
-  Currently working on <strong>ChipForge</strong> &mdash; an environment and benchmark
-  that tests whether a model can design a working chip end-to-end.
+<p class="tag">
+  <a href="mailto:hello@nathansimon.me">hello@nathansimon.me</a> ·
+  <a href="https://linkedin.com/in/nathanasimon">LinkedIn</a> ·
+  <a href="https://github.com/nathanasimon">GitHub</a>
 </p>
 
-<h3>Projects</h3>
-<ul>
-  <li><strong>ChipForge</strong> &mdash; no-oracle chip-design benchmark &amp; training environment.</li>
-  <li><em>Add more here.</em></li>
-</ul>
+<p>
+  I build AI systems and tooling across machine learning, audio, and applied research.
+  Background in computational psychology; currently working on AI workflows and agents.
+</p>
 
-<h3>Links</h3>
-<ul>
-  <li><a href="https://github.com/nathanasimon">GitHub</a></li>
-  <li><a href="mailto:simonnate21@gmail.com">Email</a></li>
-</ul>
+<h2>Experience</h2>
+
+<div class="item">
+  <div class="role">Hyfe — AI Workflow Intern</div>
+  <div class="meta">Spring 2026 – Present</div>
+  <div class="blurb">Healthtech startup specializing in private, on-device cough monitoring for pharmaceutical research.</div>
+  <ul>
+    <li>Built AI tooling that translated acoustic model results into clear, interactable summaries for non-technical researchers and clinicians.</li>
+    <li>Designed and shipped Slack-native AI agents adopted across finance, sales, and ops, replacing recurring back-office work in QuickBooks, Wise, HubSpot, and Google Workspace.</li>
+    <li>Built an AI pipeline consolidating years of Slack, email, and Drive history into a unified database of every clinical study Hyfe has run.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="role">Human Research and Development Lab — Technical Researcher</div>
+  <div class="meta">Winter 2025 – Spring 2026</div>
+  <div class="blurb">Academic lab (Dr. Ruthe Foushee) studying pre-linguistic baby-caregiver communication via computational audio analysis.</div>
+  <ul>
+    <li>Led development of ML models for audio event classification in baby-caregiver dyads, trained on a proprietary human-labeled dataset.</li>
+    <li>Managed expert data labelers to build high-quality audio datasets of pre-linguistic dyad communication.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="role">Inner Compass Initiative — Communications Intern</div>
+  <div class="meta">Summer 2025</div>
+  <div class="blurb">Nonprofit raising awareness about psychiatric drug withdrawal and informed consent in mental health care.</div>
+  <ul>
+    <li>Supported awareness campaigns and assisted staff interfacing with the NYC Department of Homeless Services.</li>
+    <li>Served as principal researcher for the Director and CEO of Inner Compass.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="role">Global Health Strategies — Communications and AI Intern</div>
+  <div class="meta">Summer 2024</div>
+  <div class="blurb">Global consulting firm providing strategic services, advocacy, policy analysis, and communications.</div>
+  <ul>
+    <li>Implemented a firm-wide AI adoption plan for US offices: tool evaluation, workflow integration, and staff training.</li>
+    <li>Supported strategic communications for the Alzheimer's Disease Data Initiative within the private office of Bill Gates.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="role">Proprietary Investing — Self-Directed</div>
+  <div class="meta">2024 – Present</div>
+  <ul>
+    <li>+232% total return over 507 trading days (Feb 2024 – Feb 2026) across equities, options, and shorts.</li>
+    <li>1.75 annualized Sharpe (levered), +47% CAPM alpha, 1.48 beta to S&amp;P 500; trailing 200-day Sharpe of 3.33.</li>
+  </ul>
+</div>
+
+<h2>Selected Projects</h2>
+
+<div class="item">
+  <div class="role">Embodied Communication <span class="meta">— Psychology, ML</span></div>
+  <ul>
+    <li>Built a human-in-the-loop ML pipeline classifying caregiver-infant interactional events from daylong audio of 68 Tseltal Maya dyads, using template matching, MFCC features, and wavelet scattering networks.</li>
+    <li>85% top-1 accuracy on soothing and infant vocalization events; surfaced a novel finding that breastfeeding functions as a regulatory mechanism around sleep.</li>
+    <li>Co-author on an in-progress manuscript (code to be open-sourced); presented at Spring 2026 conferences.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="role">Next-Gen Constitutional Classifier Replication <span class="meta">— Mechanistic Interpretability</span></div>
+  <ul>
+    <li>Replicated and extended Anthropic's Constitutional Classifiers++ on Gemma 3; a ~10M-param linear probe on frozen activations + single-step classifier beats ShieldGemma 27B on ToxicChat (F1 0.762 vs 0.729) at 1000× fewer params.</li>
+    <li>Combined text classifier + activation probe detects 67.4% of WildJailbreak attacks at 5% FPR.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="role">Bloomberg Terminal Agent <span class="meta">— Equity Analysis, Agentic Computer Use</span></div>
+  <ul>
+    <li>Built an agentic AI interface for Bloomberg terminals using proprietary APIs and on-machine endpoints to retrieve and analyze data in Excel and export it for model analysis.</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="item">
+  <div class="role">The New School, Eugene Lang College — B.A. Psychology</div>
+  <div class="meta">New York, NY · 2022 – Winter 2025</div>
+  <ul>
+    <li>GPA 3.96/4.00, Summa Cum Laude, Dean's Honor List.</li>
+    <li>Coursework: Machine Learning, Audio Signal Processing, Cognitive Psychology, Research Methods, Statistics.</li>
+  </ul>
+</div>
 
 </body>
 </html>
