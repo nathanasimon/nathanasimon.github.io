@@ -1,133 +1,108 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nathan Simon</title>
-<style>
-  body {
-    font-family: -apple-system, system-ui, sans-serif;
-    max-width: 680px;
-    margin: 60px auto;
-    padding: 0 22px;
-    line-height: 1.6;
-    color: #1a1a1a;
-  }
-  h1 { margin-bottom: 2px; }
-  h2 { margin-top: 38px; font-size: 1.15em; border-bottom: 1px solid #eee; padding-bottom: 6px; }
-  .tag { color: #666; margin-top: 0; }
-  a { color: #0366d6; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 18px; }
-  li { margin-bottom: 6px; }
-  .role { font-weight: 600; }
-  .meta { color: #666; font-size: 0.92em; }
-  .blurb { color: #555; font-style: italic; font-size: 0.92em; margin: 2px 0 6px; }
-  .item { margin-bottom: 20px; }
-  hr { border: none; border-top: 1px solid #eee; margin: 28px 0; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nathan Simon</title>
+  <style>
+    body { max-width: 780px; margin: 36px auto; padding: 0 20px; font: 16px/1.45 Arial, sans-serif; color: #111; }
+    h1 { margin: 0; text-align: center; font-size: 28px; }
+    .contact { margin: 4px 0 24px; text-align: center; font-size: 14px; }
+    h2 { margin: 28px 0 12px; padding-bottom: 3px; border-bottom: 1px solid #111; font-size: 17px; }
+    .entry { margin: 0 0 18px; }
+    .title { margin: 0; font-weight: bold; }
+    .description { margin: 3px 0 5px; }
+    ul { margin: 5px 0 0; padding-left: 22px; }
+    li { margin: 3px 0; }
+    a { color: inherit; }
+    @media print { body { max-width: none; margin: 0; padding: 0; font-size: 11pt; } h2 { margin-top: 18px; } }
+  </style>
 </head>
 <body>
+  <h1>Nathan Simon</h1>
+  <p class="contact"><a href="mailto:nathanaaronsimon@gmail.com">nathanaaronsimon@gmail.com</a> | <a href="https://linkedin.com/in/nathanasimon">linkedin.com/in/nathanasimon</a> | <a href="https://github.com/nathanasimon">github.com/nathanasimon</a> | <a href="https://nathansimon.me">nathansimon.me</a></p>
 
-<h1>Nathan Simon</h1>
-<p class="tag">
-  <a href="mailto:hello@nathansimon.me">hello@nathansimon.me</a> ·
-  <a href="https://linkedin.com/in/nathanasimon">LinkedIn</a> ·
-  <a href="https://github.com/nathanasimon">GitHub</a>
-</p>
+  <h2>EDUCATION &amp; HONORS</h2>
+  <div class="entry">
+    <p class="title">The New School, Eugene Lang College, B.A. Psychology, New York, NY | 2022 - Winter 2025</p>
+    <ul>
+      <li>GPA: 3.96/4.00, Summa Cum Laude, Dean’s Honor List</li>
+      <li>Relevant Coursework: Machine Learning, Audio Signal Processing, Cognitive Psychology, Research Methods, Statistics</li>
+    </ul>
+  </div>
 
-<p>
-  I build AI systems and tooling across machine learning, audio, and applied research.
-  Background in computational psychology; currently working on AI workflows and agents.
-</p>
+  <h2>EXPERIENCE</h2>
+  <div class="entry">
+    <p class="title">Hyfe, AI Workflow Intern | Spring 2026 - Present</p>
+    <p class="description">Healthtech startup specializing in private, on-device cough monitoring for pharmaceutical research</p>
+    <ul>
+      <li>Built AI tooling that translated acoustic model results into clear, interactable summaries for non-technical researchers and clinicians</li>
+      <li>Designed and shipped Slack-native AI agents adopted across Hyfe's finance, sales, and ops functions, replacing recurring back-office work in QuickBooks, Wise, HubSpot, and Google Workspace</li>
+      <li>Built an AI pipeline that consolidated years of Slack, email, and Google Drive history into a unified database of every clinical study Hyfe has run, giving the team a single source of truth for prior research</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <p class="title">Alzheimer's Drug Discovery Foundation, Clinical Trials | Summer 2026</p>
+    <p class="description">Healthtech startup specializing in private, on-device cough monitoring for pharmaceutical research</p>
+    <ul>
+      <li>Designed tools to clinical trial management using AI</li>
+      <li>Corrected many hours of mislabeled data collected in the multi-million dollar SpeechDX trail using my custom designed detection system</li>
+      <li>Tools designed are stil used to this day on the SpeechDX project</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <p class="title">Human Research and Development Lab, Technical Researcher | Winter 2025 - Spring 2026</p>
+    <p class="description">Academic research lab (led by Dr. Ruthe Foushee) studying pre-linguistic baby-caregiver communication through computational audio analysis.</p>
+    <ul>
+      <li>Led development of machine learning models for audio event classification in baby-caregiver dyads, training on a proprietary human-labeled audio dataset</li>
+      <li>Managed expert-level human data labelers to create proprietary, high-quality audio datasets of pre-linguistic baby-caregiver dyad communication</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <p class="title">Inner Compass Initiative, Communications Intern | Summer 2025</p>
+    <p class="description">Nonprofit raising awareness about psychiatric drug withdrawal and informed consent in mental health care.</p>
+    <ul>
+      <li>Supported awareness campaigns on psychiatric drug withdrawal and assisted staff interfacing with the NYC Department of Homeless Services</li>
+      <li>Served as principal researcher for Cooper Davis, Director and CEO of Inner Compass</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <p class="title">Global Health Strategies, Communications and AI Intern | Summer 2024</p>
+    <p class="description">GHS is a global consulting firm that provides strategic services, advocacy, policy analysis, and communications.</p>
+    <ul>
+      <li>Implemented a firm-wide AI adoption plan for US-based offices, including tool evaluation, workflow integration, and staff training</li>
+      <li>Supported strategic communications for the Alzheimer’s Disease Data Initiative and other Alzheimer’s programs in the private office of Bill Gates</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <p class="title">Mount Sinai Suicide Research &amp; Prevention Lab, Lab Assistant | Academic Year 2023</p>
+    <ul>
+      <li>Identified potential participants at multiple psychiatric wards for ongoing studies</li>
+      <li>Trained in administering cognitive tests for study onboarding</li>
+    </ul>
+  </div>
 
-<h2>Experience</h2>
-
-<div class="item">
-  <div class="role">Hyfe — AI Workflow Intern</div>
-  <div class="meta">Spring 2026 – Present</div>
-  <div class="blurb">Healthtech startup specializing in private, on-device cough monitoring for pharmaceutical research.</div>
-  <ul>
-    <li>Built AI tooling that translated acoustic model results into clear, interactable summaries for non-technical researchers and clinicians.</li>
-    <li>Designed and shipped Slack-native AI agents adopted across finance, sales, and ops, replacing recurring back-office work in QuickBooks, Wise, HubSpot, and Google Workspace.</li>
-    <li>Built an AI pipeline consolidating years of Slack, email, and Drive history into a unified database of every clinical study Hyfe has run.</li>
-  </ul>
-</div>
-
-<div class="item">
-  <div class="role">Human Research and Development Lab — Technical Researcher</div>
-  <div class="meta">Winter 2025 – Spring 2026</div>
-  <div class="blurb">Academic lab (Dr. Ruthe Foushee) studying pre-linguistic baby-caregiver communication via computational audio analysis.</div>
-  <ul>
-    <li>Led development of ML models for audio event classification in baby-caregiver dyads, trained on a proprietary human-labeled dataset.</li>
-    <li>Managed expert data labelers to build high-quality audio datasets of pre-linguistic dyad communication.</li>
-  </ul>
-</div>
-
-<div class="item">
-  <div class="role">Inner Compass Initiative — Communications Intern</div>
-  <div class="meta">Summer 2025</div>
-  <div class="blurb">Nonprofit raising awareness about psychiatric drug withdrawal and informed consent in mental health care.</div>
-  <ul>
-    <li>Supported awareness campaigns and assisted staff interfacing with the NYC Department of Homeless Services.</li>
-    <li>Served as principal researcher for the Director and CEO of Inner Compass.</li>
-  </ul>
-</div>
-
-<div class="item">
-  <div class="role">Global Health Strategies — Communications and AI Intern</div>
-  <div class="meta">Summer 2024</div>
-  <div class="blurb">Global consulting firm providing strategic services, advocacy, policy analysis, and communications.</div>
-  <ul>
-    <li>Implemented a firm-wide AI adoption plan for US offices: tool evaluation, workflow integration, and staff training.</li>
-    <li>Supported strategic communications for the Alzheimer's Disease Data Initiative within the private office of Bill Gates.</li>
-  </ul>
-</div>
-
-<div class="item">
-  <div class="role">Proprietary Investing — Self-Directed</div>
-  <div class="meta">2024 – Present</div>
-  <ul>
-    <li>+232% total return over 507 trading days (Feb 2024 – Feb 2026) across equities, options, and shorts.</li>
-    <li>1.75 annualized Sharpe (levered), +47% CAPM alpha, 1.48 beta to S&amp;P 500; trailing 200-day Sharpe of 3.33.</li>
-  </ul>
-</div>
-
-<h2>Selected Projects</h2>
-
-<div class="item">
-  <div class="role">Embodied Communication <span class="meta">— Psychology, ML</span></div>
-  <ul>
-    <li>Built a human-in-the-loop ML pipeline classifying caregiver-infant interactional events from daylong audio of 68 Tseltal Maya dyads, using template matching, MFCC features, and wavelet scattering networks.</li>
-    <li>85% top-1 accuracy on soothing and infant vocalization events; surfaced a novel finding that breastfeeding functions as a regulatory mechanism around sleep.</li>
-    <li>Co-author on an in-progress manuscript (code to be open-sourced); presented at Spring 2026 conferences.</li>
-  </ul>
-</div>
-
-<div class="item">
-  <div class="role">Next-Gen Constitutional Classifier Replication <span class="meta">— Mechanistic Interpretability</span></div>
-  <ul>
-    <li>Replicated and extended Anthropic's Constitutional Classifiers++ on Gemma 3; a ~10M-param linear probe on frozen activations + single-step classifier beats ShieldGemma 27B on ToxicChat (F1 0.762 vs 0.729) at 1000× fewer params.</li>
-    <li>Combined text classifier + activation probe detects 67.4% of WildJailbreak attacks at 5% FPR.</li>
-  </ul>
-</div>
-
-<div class="item">
-  <div class="role">Bloomberg Terminal Agent <span class="meta">— Equity Analysis, Agentic Computer Use</span></div>
-  <ul>
-    <li>Built an agentic AI interface for Bloomberg terminals using proprietary APIs and on-machine endpoints to retrieve and analyze data in Excel and export it for model analysis.</li>
-  </ul>
-</div>
-
-<h2>Education</h2>
-<div class="item">
-  <div class="role">The New School, Eugene Lang College — B.A. Psychology</div>
-  <div class="meta">New York, NY · 2022 – Winter 2025</div>
-  <ul>
-    <li>GPA 3.96/4.00, Summa Cum Laude, Dean's Honor List.</li>
-    <li>Coursework: Machine Learning, Audio Signal Processing, Cognitive Psychology, Research Methods, Statistics.</li>
-  </ul>
-</div>
-
+  <h2>SELECTED PROJECTS</h2>
+  <div class="entry">
+    <p class="title">Embodied Communication | Psychology, ML</p>
+    <ul>
+      <li>Built human-in-the-loop ML pipeline classifying caregiver-infant interactional events from daylong audio of 68 Tseltal Maya dyads using Template Matching, MFCC features and Wavelet Scattering Networks</li>
+      <li>Achieved 85% top-1 accuracy on soothing and infant vocalization events; surfaced novel finding that breastfeeding functions as a regulatory mechanism around sleep</li>
+      <li>Co-author on in-progress manuscript (code to be open-sourced); presented at Spring 2026 conferences</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <p class="title">Next-Gen Constitutional Classifier Replication | Mechanistic Interpretability</p>
+    <ul>
+      <li>Replicated and extended Anthropic's Constitutional Classifiers++ on Gemma 3; ~10M-param linear probe on frozen activations + single step classifier beats ShieldGemma 27B on ToxicChat (F1 0.762 vs 0.729) at 1000x fewer params</li>
+      <li>Combined text classifier + activation probe detects 67.4% of WildJailbreak attacks at 5% FPR</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <p class="title">Bloomberg Terminal Agent | Equity Analysis, Agentic Computer Use</p>
+    <ul>
+      <li>Built an Agentic AI interface for Bloomberg terminals, using Proprietary APIs and exposed endpoints on the machine, that can retrieve and analyze data in Excel, as well as export data for model analysis</li>
+    </ul>
+  </div>
 </body>
 </html>
